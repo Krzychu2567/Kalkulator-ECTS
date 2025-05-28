@@ -1,1 +1,1 @@
-# projekt-PO
+# Kalkulator-ECTS
