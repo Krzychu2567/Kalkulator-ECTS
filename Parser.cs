@@ -73,4 +73,16 @@ class Parser
 
         return przedmioty;
     }
+    public List<Rodzaj> getRodzaje()
+    {
+        return rodzaje.Values.ToList();
+    }
+    public List<Tag> getTagi()
+    {
+        return tagi.Values.ToList();
+    }
+    public List<Semestr> getSemestry()
+    {
+        return semestry.Values.ToList();
+    }
 }
