@@ -1,9 +1,9 @@
 class Filtry
 {
-    public string nazwa { get; set; }
-    public List<Rodzaj> rodzaje { get; set; }
-    public List<Tag> tagi { get; set; }
-    public List<Semestr> semestry { get; set; }
+    public string? nazwa { get; set; }
+    public List<Rodzaj>? rodzaje { get; set; }
+    public List<Tag>? tagi { get; set; }
+    public List<Semestr>? semestry { get; set; }
     public bool czyIrok { get; set; }
 }
 

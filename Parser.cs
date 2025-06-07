@@ -10,16 +10,35 @@ class Parser
         string[] linie = File.ReadAllLines(filePath);
 
         string semestrNazwa = Path.GetFileNameWithoutExtension(filePath);
-        if (semestrNazwa[0] == 'z')
-            semestrNazwa = "zimowy (20" + semestrNazwa[6] + semestrNazwa[7]
-                                + "/20" + semestrNazwa[8] + semestrNazwa[9] + ")";
-        else semestrNazwa = "letni (20" + semestrNazwa[5] + semestrNazwa[6]
-                                + "/20" + semestrNazwa[7] + semestrNazwa[8] + ")";
+        if (semestrNazwa.Substring(0, 6) == "zimowy")
+        {
+            if (semestrNazwa.Length != 10 || !Char.IsDigit(semestrNazwa[6]) || !Char.IsDigit(semestrNazwa[7])
+                                          || !Char.IsDigit(semestrNazwa[8]) || !Char.IsDigit(semestrNazwa[9]))
+            {
+                throw new ArgumentException("Nieprawidłowa format nazwy pliku: " + filePath);
+            }
+            semestrNazwa = "zimowy (20" + semestrNazwa.Substring(6, 2) + "/20"
+                            + semestrNazwa.Substring(8, 2) + ")";
+        }
+        else if (semestrNazwa.Substring(0, 5) == "letni")
+        {
+            if (semestrNazwa.Length != 9 || !Char.IsDigit(semestrNazwa[5]) || !Char.IsDigit(semestrNazwa[6])
+                                         || !Char.IsDigit(semestrNazwa[7]) || !Char.IsDigit(semestrNazwa[8]))
+            {
+                throw new ArgumentException("Nieprawidłowa format nazwy pliku: " + filePath);
+            }
+            semestrNazwa = "letni (20" + semestrNazwa.Substring(5, 2) + "/20"
+                            + semestrNazwa.Substring(7, 2) + ")";
+        }
+        else
+        {
+            throw new ArgumentException("Nieprawidłowa format nazwy pliku: " + filePath);
+        }
 
         if (!semestry.ContainsKey(semestrNazwa))
-        {
-            semestry[semestrNazwa] = new Semestr(semestrNazwa);
-        }
+            {
+                semestry[semestrNazwa] = new Semestr(semestrNazwa);
+            }
         Semestr semestr = semestry[semestrNazwa];
 
         foreach (string linia in linie.Skip(2))
@@ -47,6 +66,11 @@ class Parser
                                               .Select(tag => tag.Trim())
                                               .ToArray();
 
+            if (nazwy_tagow.Length != skr_nazwy_tagow.Length)
+            {
+                throw new ArgumentException("Liczba nazw tagów i skrótów tagów nie jest taka sama w pliku: " + filePath);
+            }
+
             List<Tag> tagiList = new List<Tag>();
             for (int i = 0; i < nazwy_tagow.Length; i++)
             {
@@ -56,6 +80,16 @@ class Parser
                     tagi[tagKey] = new Tag(nazwy_tagow[i], skr_nazwy_tagow[i]);
                 }
                 tagiList.Add(tagi[tagKey]);
+            }
+
+            if (dane[4] != "t" && dane[4] != "f")
+            {
+                throw new ArgumentException("Nieprawidłowa wartość dla 'czyIrok' w pliku: " + filePath);
+            }
+
+            if (!int.TryParse(dane[1], out int ects) || ects < 0)
+            {
+                throw new ArgumentException("Nieprawidłowa wartość ECTS w pliku: " + filePath);
             }
 
             Przedmiot przedmiot = new Przedmiot
