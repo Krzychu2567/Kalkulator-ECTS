@@ -1,0 +1,80 @@
+                                 name                                 | points |           name           | short_name | recommended_for_first_year | array_agg |                                array_agg                                 
+----------------------------------------------------------------------+--------+--------------------------+------------+----------------------------+-----------+--------------------------------------------------------------------------
+ Kurs: Tworzenie aplikacji frontendowych                              |      5 | Kurs inżynierski         | K.inż      | t                          | {NULL}    | {NULL}
+ Systemy komputerowe                                                  |      6 | Informatyczny 1          | I1         | f                          | {ASK,SO}  | {"Architektury systemów komputerowych","Systemy operacyjne"}
+ [IM] Topologia                                                       |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Projekt: Implementacja języka Fram                                   |      4 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+ Praktyka zawodowa - cztery tygodnie                                  |      4 | Inne                     | ?          | f                          | {NULL}    | {NULL}
+ Teoretyczne podstawy języków programowania                           |      6 | I2.T - teoria inf.       | I2.T       | f                          | {JP}      | {"języki programowania i logika"}
+ Kurs programowania gier w silniku Unreal 5                           |      5 | K2 - kurs zaawansowany   | K2         | f                          | {NULL}    | {NULL}
+ Advanced Data Mining                                                 |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {DS}      | {"Data Science"}
+ Projekt: rozwój Schedulera (Reaktywacja)                             |      4 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+ Praktyka programowania sportowego                                    |      2 | Inne                     | ?          | f                          | {NULL}    | {NULL}
+ Algorithms for Network Design                                        |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {NULL}    | {NULL}
+ Numerical Optimization                                               |      8 | I2.T - teoria inf.       | I2.T       | f                          | {DS}      | {"Data Science"}
+ Seminarium: Analiza problemów algorytmicznych                        |      3 | Seminarium               | S          | t                          | {NULL}    | {NULL}
+ Wstęp do bezpieczeństwa komputerowego                                |      6 | Informatyczny 1          | I1         | f                          | {NULL}    | {NULL}
+ Algorytmy funkcjonalne i trwałe struktury danych                     |      6 | I2.T - teoria inf.       | I2.T       | f                          | {JP,AZ}   | {"języki programowania i logika","algorytmika i złożoność obliczeniowa"}
+ Introduction to Linear Optimization                                  |      6 | I2.T - teoria inf.       | I2.T       | f                          | {NULL}    | {NULL}
+ Etyka dla myślących (w)                                              |      3 | Humanistyczno-społeczny  | HS         | f                          | {NULL}    | {NULL}
+ Języki formalne i złożoność obliczeniowa                             |      9 | Obowiązkowy 3            | O3         | f                          | {NULL}    | {NULL}
+ Metody programowania                                                 |      9 | Obowiązkowy 1            | O1         | t                          | {NULL}    | {NULL}
+ Kryptografia                                                         |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {PD,AZ}   | {"przetwarzanie danych","algorytmika i złożoność obliczeniowa"}
+ Seminarium: Zaawansowane zagadnienia semantyki języków programowania |      3 | Seminarium               | S          | f                          | {NULL}    | {NULL}
+ Projektowanie obiektowe oprogramowania                               |      6 | Informatyczny inż.       | Iinż       | f                          | {PiPO,IO} | {"Projektowanie i programowanie obiektowe","Inżynieria oprogramowania"}
+ Krzywe i powierzchnie w grafice komputerowej                         |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {NG}      | {"metody numeryczne i grafika komputerowa"}
+ [IM] Analiza matematyczna II                                         |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Etyka dla myślących                                                  |      5 | Humanistyczno-społeczny  | HS         | f                          | {NULL}    | {NULL}
+ Logika 2: Wstęp do klasycznej i skończonej teorii modeli             |      6 | I2.T - teoria inf.       | I2.T       | f                          | {JP}      | {"języki programowania i logika"}
+ Algorytmy i struktury danych (L)                                     |     12 | Obowiązkowy 2            | O2         | f                          | {NULL}    | {NULL}
+ Combinatorial optimization                                           |      6 | I2.T - teoria inf.       | I2.T       | f                          | {AZ}      | {"algorytmika i złożoność obliczeniowa"}
+ Architektury systemów komputerowych                                  |      8 | Informatyczny 1          | I1         | f                          | {ASK}     | {"Architektury systemów komputerowych"}
+ Seminarium: Kryptografia i bezpieczeństwo komputerowe                |      3 | Seminarium               | S          | f                          | {NULL}    | {NULL}
+ Kurs administrowania systemem Linux                                  |      5 | Kurs inżynierski         | K.inż      | f                          | {NULL}    | {NULL}
+ [IM] Algebra I                                                       |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ [IM] Algebra liniowa 2                                               |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Kurs języka C++                                                      |      5 | K1 - kurs podstawowy     | K1         | t                          | {NULL}    | {NULL}
+ Project: eXplainable Artificial Intelligence                         |      4 | Projekt                  | P          | f                          | {DS}      | {"Data Science"}
+ [IM] Rachunek prawdopodobieństwa 1R                                  |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Logika cyfrowa                                                       |      6 | Informatyczny inż.       | Iinż       | t                          | {NULL}    | {NULL}
+ Algebra                                                              |      8 | Obowiązkowy 1            | O1         | t                          | {NULL}    | {NULL}
+ Kompresja danych                                                     |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {AZ,PD}   | {"algorytmika i złożoność obliczeniowa","przetwarzanie danych"}
+ Ochrona własności intelektualnej                                     |      1 | Nieinformatyczny         | N          | f                          | {NULL}    | {NULL}
+ Neural Networks. Theory and Practice.                                |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {DS,PD}   | {"Data Science","przetwarzanie danych"}
+ Totalitaryzm na przykładzie nazizmu                                  |      5 | Humanistyczno-społeczny  | HS         | f                          | {NULL}    | {NULL}
+ Sieci komputerowe                                                    |      6 | Informatyczny 1          | I1         | f                          | {SK}      | {"Sieci komputerowe"}
+ Projekt: Deep Learning                                               |      6 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+ Projekt: Kuźnia rdzeni                                               |      4 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+ Scala in Practice                                                    |      5 | Kurs inżynierski         | K.inż      | f                          | {NULL}    | {NULL}
+ Warsztaty: Jak założyć firmę?                                        |      3 | Inne                     | ?          | f                          | {NULL}    | {NULL}
+ [IM] Statistical learning                                            |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Rachunek prawdopodobieństwa i statystyka                             |      6 | Informatyczny 1          | I1         | f                          | {RPiS}    | {"Rachunek prawdopodobieństwa i statystyka"}
+ Kurs programowania pod Windows w technologii .NET                    |      5 | K1 - kurs podstawowy     | K1         | f                          | {NULL}    | {NULL}
+ Programowanie obiektowe                                              |      6 | Informatyczny 1          | I1         | t                          | {PiPO}    | {"Projektowanie i programowanie obiektowe"}
+ Weryfikacja programów w systemie Coq 2                               |      6 | I2.T - teoria inf.       | I2.T       | f                          | {JP}      | {"języki programowania i logika"}
+ Tutoring ISIM                                                        |      0 | Inne                     | ?          | t                          | {NULL}    | {NULL}
+ [IM] Równania różniczkowe 1                                          |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Przetwarzanie Obrazów / Digital Image Processing                     |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {NG}      | {"metody numeryczne i grafika komputerowa"}
+ [IM] Funkcje analityczne R                                           |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Kurs zaawansowany: Programowanie współbieżne w języku C++            |      5 | K2 - kurs zaawansowany   | K2         | f                          | {NULL}    | {NULL}
+ Projekt: Machine Learning for Temporal Data Mining                   |      4 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+ Seminarium: Hakowanie dla każdego                                    |      3 | Seminarium               | S          | f                          | {SY}      | {"systemy sieciowe i komputerowe"}
+ Projekt: Mastering Game Bots                                         |      4 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+ Sztuczna inteligencja                                                |      6 | Informatyczny inż.       | Iinż       | f                          | {NULL}    | {NULL}
+ Praktyka zawodowa - sześć tygodni                                    |      6 | Inne                     | ?          | f                          | {NULL}    | {NULL}
+ Kurs: Zaawansowane technologie Javy                                  |      5 | Kurs inżynierski         | K.inż      | f                          | {NULL}    | {NULL}
+ Tutoring                                                             |      0 | Inne                     | ?          | t                          | {NULL}    | {NULL}
+ Algorytmika praktyczna                                               |      6 | Informatyczny 1          | I1         | t                          | {NULL}    | {NULL}
+ [IM] Równania różniczkowe 1R                                         |      0 | Matematyczny             | MAT        | f                          | {NULL}    | {NULL}
+ Półkurs języka Prolog                                                |      3 | K1 - kurs podstawowy     | K1         | f                          | {NULL}    | {NULL}
+ Bazy danych                                                          |      6 | Informatyczny 1          | I1         | f                          | {BD}      | {"Bazy danych"}
+ Wprowadzenie do kognitywistyki                                       |      3 | Humanistyczno-społeczny  | HS         | f                          | {NULL}    | {NULL}
+ Architektura komputerów                                              |      6 | I2.Z - zastosowania inf. | I2.Z       | f                          | {SY}      | {"systemy sieciowe i komputerowe"}
+ Mentoring for Data Science                                           |      0 | Inne                     | ?          | f                          | {NULL}    | {NULL}
+ Kurs: programowanie sterowników dla systemu Linux                    |      3 | K2 - kurs zaawansowany   | K2         | f                          | {NULL}    | {NULL}
+ Optymalizacja głębokich sieci neuronowych na urządzenia IoT          |      3 | K2 - kurs zaawansowany   | K2         | f                          | {NULL}    | {NULL}
+ Seminarium: Uczenie maszynowe automatów                              |      3 | Seminarium               | S          | f                          | {NULL}    | {NULL}
+ Projekt: operacja system                                             |      4 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+ Innovative Projects by Nokia                                         |      4 | Projekt                  | P          | f                          | {NULL}    | {NULL}
+(76 rows)
+
